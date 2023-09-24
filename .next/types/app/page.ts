@@ -1,4 +1,4 @@
-// File: /Users/lucaspeixoto/Documents/Projects/next/lucas-peixoto-perfil/app/page.tsx
+// File: /Users/lucaspeixoto/Documents/Projects/next/sergio-fernandes/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

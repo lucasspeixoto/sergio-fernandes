@@ -38,21 +38,21 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+        <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <div className="relative flex flex-col h-screen">
             <Navbar />
             <main className="container mx-auto max-w-5xl pt-16 px-6 flex-grow">
               {children}
             </main>
-            <footer className="w-full flex items-center justify-center py-3">
+            <footer className="w-full flex items-center justify-center py-3 px-1">
               <Link
                 isExternal
                 className="flex items-center gap-1 text-current"
-                href="https://nextui-docs-v2.vercel.app?utm_source=next-app-template"
-                title="nextui.org homepage"
+                href="https://revistadofrio.com.br/sergio-fernandes-uma-vida-dedicada-a-refrigeracao/"
+                title="Homenagem original"
               >
-                <span className="text-default-600">Desenvolvido com</span>
-                <p className="text-primary">NextJs</p>
+                <span className="text-default-600 text-sm sm:text-lg">Homenagem Revista do frio a </span>
+                <p className="text-primary text-sm sm:text-lg">Sergio Fernandes</p>
               </Link>
             </footer>
           </div>
